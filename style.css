@@ -322,23 +322,12 @@ header.scrolled .nav-container {
     gap: 0.5rem;
 }
 
-.logo-icon {
-    width: 32px;
-    height: 32px;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    border-radius: 8px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo-icon-svg {
+    transition: var(--transition-smooth);
 }
 
-.logo-icon::before {
-    content: '';
-    width: 14px;
-    height: 14px;
-    background: var(--bg-dark);
-    border-radius: 4px;
+.logo:hover .logo-icon-svg {
+    transform: rotate(5deg) scale(1.08);
 }
 
 .nav-links {
