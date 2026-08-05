@@ -654,9 +654,10 @@ header.scrolled .nav-container {
    CONTACT SECTION
 --------------------------------- */
 .contact-grid {
-    display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact-info-list {
